@@ -3,11 +3,38 @@ body{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*Cabecera*/
+
+.cabecera {
+
+    width: 70%;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+    padding: 0.5em;
+    background-color: #33A;
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33,
+     13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808,
+      -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, -31px -26px 6px -11px rgba(0,0,0,0);
+
+}
+
+.cabecera span {
+
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+
+}
+
+/*Contenido principal*/
 
 .container{
 
     width: 70%;
-    padding: 1em;
+    padding: 0em;
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
@@ -19,12 +46,8 @@ body{
 
 }
 
-.cabecera {
+.post {
 
-    width: 70%;
     padding: 1em;
-    text-align: left;
-    border: 1px solid #DDD;
-    margin: 0 auto;
-
 }
+
